@@ -1,10 +1,6 @@
-import SonatypeKeys._
-
-sonatypeSettings
-
 name := "pyrolite"
 
-organization := "org.spark-project.pyrolite"
+organization := "org.spark-project"
 
 version := "2.0"
 
