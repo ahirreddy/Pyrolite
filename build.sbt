@@ -1,6 +1,10 @@
+import SonatypeKeys._
+
+sonatypeSettings
+
 name := "pyrolite"
 
-organization := "net.razorvine"
+organization := "org.spark-project.pyrolite"
 
 version := "2.0"
 
@@ -47,6 +51,6 @@ pomExtra := (
 
 credentials += Credentials("Sonatype Nexus Repository Manager",
                            "oss.sonatype.org",
-                           "<your username>",
-                           "<your password>")
+                           "username",
+                           "password")
 
