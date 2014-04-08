@@ -4,6 +4,10 @@ organization := "net.razorvine"
 
 version := "2.0"
 
+autoScalaLibrary := false
+
+crossPaths := false
+
 javaSource in Compile := baseDirectory.value / "java" / "src"
 
 unmanagedBase in Compile := baseDirectory.value / "java"/ "lib"
@@ -45,3 +49,4 @@ credentials += Credentials("Sonatype Nexus Repository Manager",
                            "oss.sonatype.org",
                            "<your username>",
                            "<your password>")
+
